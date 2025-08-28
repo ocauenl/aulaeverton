@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Página IoT - Espaço para Iframe</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f9fc;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #2d3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    main {
+      padding: 30px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .iframe-container {
+      margin-top: 30px;
+      padding: 20px;
+      border: 2px dashed #ccc;
+      background-color: #ffffff;
+      border-radius: 10px;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .iframe-container p {
+      color: #888;
+    }
+
+    footer {
+      background-color: #eee;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+
+    /* Quando você inserir o iframe, ele ocupará todo o espaço disponível */
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🔧 Monitoramento IoT - Dashboard Integrado</h1>
+  </header>
+
+  <main>
+    <h2>Bem-vindo!</h2>
+    <p>Insira abaixo o seu iframe com o dashboard IoT, como ThingSpeak, Grafana, Node-RED ou outro painel.</p>
+
+    <div class="iframe-container">
+      <p><em>Sensor de temperatura</em></p>
+
+   <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/3042961/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+
+    </div>
+  </main>
+
+  <footer>
+    Projeto IoT - Página criada para integração de dashboards
+  </footer>
+
+</body>
+</html>
